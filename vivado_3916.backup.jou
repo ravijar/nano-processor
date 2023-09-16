@@ -1,0 +1,215 @@
+#-----------------------------------------------------------
+# Vivado v2018.2 (64-bit)
+# SW Build 2258646 on Thu Jun 14 20:03:12 MDT 2018
+# IP Build 2256618 on Thu Jun 14 22:10:49 MDT 2018
+# Start of session at: Mon Jul 25 21:10:27 2022
+# Process ID: 3916
+# Current directory: E:/Academia @ CSE/Semester 02/CS1050 Computer Organization and Digital Design/Xlinix Vivado/Nano_Final/Nano
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent7992 E:\Academia @ CSE\Semester 02\CS1050 Computer Organization and Digital Design\Xlinix Vivado\Nano_Final\Nano\Nano.xpr
+# Log file: E:/Academia @ CSE/Semester 02/CS1050 Computer Organization and Digital Design/Xlinix Vivado/Nano_Final/Nano/vivado.log
+# Journal file: E:/Academia @ CSE/Semester 02/CS1050 Computer Organization and Digital Design/Xlinix Vivado/Nano_Final/Nano\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project {E:/Academia @ CSE/Semester 02/CS1050 Computer Organization and Digital Design/Xlinix Vivado/Nano_Final/Nano/Nano.xpr}
+update_compile_order -fileset sources_1
+launch_simulation
+source TB_Instruction_Decoder.tcl
+# Disabling source management mode.  This is to allow the top design properties to be set without GUI intervention.
+set_property source_mgmt_mode None [current_project]
+set_property top Final_Project_sim [get_filesets sim_1]
+set_property top_lib xil_defaultlib [get_filesets sim_1]
+# Re-enabling previously disabled source management mode.
+set_property source_mgmt_mode All [current_project]
+update_compile_order -fileset sim_1
+launch_simulation
+source Final_Project_sim.tcl
+close_sim
+launch_simulation
+source Final_Project_sim.tcl
+close_sim
+launch_simulation
+source Final_Project_sim.tcl
+# Disabling source management mode.  This is to allow the top design properties to be set without GUI intervention.
+set_property source_mgmt_mode None [current_project]
+set_property top TB_Instruction_Decoder [get_filesets sim_1]
+set_property top_lib xil_defaultlib [get_filesets sim_1]
+# Re-enabling previously disabled source management mode.
+set_property source_mgmt_mode All [current_project]
+update_compile_order -fileset sim_1
+current_sim simulation_1
+close_sim
+launch_simulation
+source TB_Instruction_Decoder.tcl
+close_sim
+launch_simulation
+source TB_Instruction_Decoder.tcl
+# Disabling source management mode.  This is to allow the top design properties to be set without GUI intervention.
+set_property source_mgmt_mode None [current_project]
+set_property top Final_Project_sim [get_filesets sim_1]
+set_property top_lib xil_defaultlib [get_filesets sim_1]
+# Re-enabling previously disabled source management mode.
+set_property source_mgmt_mode All [current_project]
+update_compile_order -fileset sim_1
+current_sim simulation_4
+close_sim
+launch_simulation
+source Final_Project_sim.tcl
+close_sim
+launch_simulation
+source Final_Project_sim.tcl
+close_sim
+launch_simulation
+source Final_Project_sim.tcl
+close_sim
+launch_simulation
+source Final_Project_sim.tcl
+close_sim
+launch_simulation
+source Final_Project_sim.tcl
+# Disabling source management mode.  This is to allow the top design properties to be set without GUI intervention.
+set_property source_mgmt_mode None [current_project]
+set_property top Instruction_Decoder [current_fileset]
+# Re-enabling previously disabled source management mode.
+set_property source_mgmt_mode All [current_project]
+update_compile_order -fileset sources_1
+close_sim
+launch_simulation
+source Final_Project_sim.tcl
+# Disabling source management mode.  This is to allow the top design properties to be set without GUI intervention.
+set_property source_mgmt_mode None [current_project]
+set_property top TB_Instruction_Decoder [get_filesets sim_1]
+set_property top_lib xil_defaultlib [get_filesets sim_1]
+# Re-enabling previously disabled source management mode.
+set_property source_mgmt_mode All [current_project]
+update_compile_order -fileset sim_1
+current_sim simulation_6
+close_sim
+launch_simulation
+source TB_Instruction_Decoder.tcl
+# Disabling source management mode.  This is to allow the top design properties to be set without GUI intervention.
+set_property source_mgmt_mode None [current_project]
+set_property top Final_Project_sim [get_filesets sim_1]
+set_property top_lib xil_defaultlib [get_filesets sim_1]
+# Re-enabling previously disabled source management mode.
+set_property source_mgmt_mode All [current_project]
+update_compile_order -fileset sim_1
+current_sim simulation_12
+close_sim
+launch_simulation
+source Final_Project_sim.tcl
+# Disabling source management mode.  This is to allow the top design properties to be set without GUI intervention.
+set_property source_mgmt_mode None [current_project]
+set_property top TB_Instruction_Decoder [get_filesets sim_1]
+set_property top_lib xil_defaultlib [get_filesets sim_1]
+# Re-enabling previously disabled source management mode.
+set_property source_mgmt_mode All [current_project]
+update_compile_order -fileset sim_1
+current_sim simulation_13
+close_sim
+launch_simulation
+source TB_Instruction_Decoder.tcl
+# Disabling source management mode.  This is to allow the top design properties to be set without GUI intervention.
+set_property source_mgmt_mode None [current_project]
+set_property top Final_Project_sim [get_filesets sim_1]
+set_property top_lib xil_defaultlib [get_filesets sim_1]
+# Re-enabling previously disabled source management mode.
+set_property source_mgmt_mode All [current_project]
+update_compile_order -fileset sim_1
+current_sim simulation_14
+close_sim
+launch_simulation
+source Final_Project_sim.tcl
+# Disabling source management mode.  This is to allow the top design properties to be set without GUI intervention.
+set_property source_mgmt_mode None [current_project]
+set_property top TB_Instruction_Decoder [get_filesets sim_1]
+set_property top_lib xil_defaultlib [get_filesets sim_1]
+# Re-enabling previously disabled source management mode.
+set_property source_mgmt_mode All [current_project]
+update_compile_order -fileset sim_1
+current_sim simulation_15
+close_sim
+launch_simulation
+source TB_Instruction_Decoder.tcl
+# Disabling source management mode.  This is to allow the top design properties to be set without GUI intervention.
+set_property source_mgmt_mode None [current_project]
+set_property top Final_Project_sim [get_filesets sim_1]
+set_property top_lib xil_defaultlib [get_filesets sim_1]
+# Re-enabling previously disabled source management mode.
+set_property source_mgmt_mode All [current_project]
+update_compile_order -fileset sim_1
+current_sim simulation_16
+close_sim
+launch_simulation
+source Final_Project_sim.tcl
+current_wave_config {Untitled 18}
+add_wave {{/Final_Project_sim/uut/Nano_Processor_0/Instruction_Decoder_0/I}} 
+save_wave_config {E:/Academia @ CSE/Semester 02/CS1050 Computer Organization and Digital Design/Xlinix Vivado/Nano_Final/Nano/Final_Project_sim_behav2.wcfg}
+add_files -fileset sim_1 -norecurse {{E:/Academia @ CSE/Semester 02/CS1050 Computer Organization and Digital Design/Xlinix Vivado/Nano_Final/Nano/Final_Project_sim_behav2.wcfg}}
+set_property xsim.view {{E:/Academia @ CSE/Semester 02/CS1050 Computer Organization and Digital Design/Xlinix Vivado/Nano_Final/Nano/Final_Project_sim_behav1.wcfg} {E:/Academia @ CSE/Semester 02/CS1050 Computer Organization and Digital Design/Xlinix Vivado/Nano_Final/Nano/Final_Project_sim_behav2.wcfg}} [get_filesets sim_1]
+close_sim
+launch_simulation
+open_wave_config {E:/Academia @ CSE/Semester 02/CS1050 Computer Organization and Digital Design/Xlinix Vivado/Nano_Final/Nano/Final_Project_sim_behav2.wcfg}
+source Final_Project_sim.tcl
+close_sim
+launch_simulation
+open_wave_config {E:/Academia @ CSE/Semester 02/CS1050 Computer Organization and Digital Design/Xlinix Vivado/Nano_Final/Nano/Final_Project_sim_behav2.wcfg}
+source Final_Project_sim.tcl
+close_sim
+launch_simulation
+open_wave_config {E:/Academia @ CSE/Semester 02/CS1050 Computer Organization and Digital Design/Xlinix Vivado/Nano_Final/Nano/Final_Project_sim_behav2.wcfg}
+source Final_Project_sim.tcl
+close_sim
+launch_simulation
+open_wave_config {E:/Academia @ CSE/Semester 02/CS1050 Computer Organization and Digital Design/Xlinix Vivado/Nano_Final/Nano/Final_Project_sim_behav2.wcfg}
+source Final_Project_sim.tcl
+current_wave_config {Final_Project_sim_behav2.wcfg}
+add_wave {{/Final_Project_sim/uut/Nano_Processor_0/Instruction_Decoder_0/I}} 
+current_wave_config {Final_Project_sim_behav2.wcfg}
+add_wave {{/Final_Project_sim/uut/Nano_Processor_0/Instruction_Decoder_0/Jump_Address}} 
+current_wave_config {Final_Project_sim_behav2.wcfg}
+add_wave {{/Final_Project_sim/uut/Nano_Processor_0/Instruction_Decoder_0/Jump_Flag}} 
+current_wave_config {Final_Project_sim_behav2.wcfg}
+add_wave {{/Final_Project_sim/uut/Nano_Processor_0/Slow_Clk_0/Clk_out}} 
+current_wave_config {Final_Project_sim_behav2.wcfg}
+add_wave {{/Final_Project_sim/uut/Nano_Processor_0/Register_Bank_0/Reg_1/Q}} 
+current_wave_config {Final_Project_sim_behav2.wcfg}
+add_wave {{/Final_Project_sim/uut/Nano_Processor_0/Register_Bank_0/Reg_2/Q}} 
+current_wave_config {Final_Project_sim_behav2.wcfg}
+add_wave {{/Final_Project_sim/uut/Nano_Processor_0/Register_Bank_0/Reg_7/Q}} 
+current_wave_config {Final_Project_sim_behav2.wcfg}
+add_wave {{/Final_Project_sim/uut/Nano_Processor_0/Instruction_Decoder_0/Reg_En}} 
+save_wave_config {E:/Academia @ CSE/Semester 02/CS1050 Computer Organization and Digital Design/Xlinix Vivado/Nano_Final/Nano/Final_Project_sim_behav2.wcfg}
+close_sim
+launch_simulation
+open_wave_config {E:/Academia @ CSE/Semester 02/CS1050 Computer Organization and Digital Design/Xlinix Vivado/Nano_Final/Nano/Final_Project_sim_behav2.wcfg}
+source Final_Project_sim.tcl
+close_sim
+launch_simulation
+open_wave_config {E:/Academia @ CSE/Semester 02/CS1050 Computer Organization and Digital Design/Xlinix Vivado/Nano_Final/Nano/Final_Project_sim_behav2.wcfg}
+source Final_Project_sim.tcl
+close_sim
+launch_simulation
+open_wave_config {E:/Academia @ CSE/Semester 02/CS1050 Computer Organization and Digital Design/Xlinix Vivado/Nano_Final/Nano/Final_Project_sim_behav2.wcfg}
+source Final_Project_sim.tcl
+close_sim
+launch_simulation
+open_wave_config {E:/Academia @ CSE/Semester 02/CS1050 Computer Organization and Digital Design/Xlinix Vivado/Nano_Final/Nano/Final_Project_sim_behav2.wcfg}
+source Final_Project_sim.tcl
+# Disabling source management mode.  This is to allow the top design properties to be set without GUI intervention.
+set_property source_mgmt_mode None [current_project]
+set_property top Final_Project [current_fileset]
+# Re-enabling previously disabled source management mode.
+set_property source_mgmt_mode All [current_project]
+update_compile_order -fileset sources_1
+synth_design -rtl -name rtl_1
+reset_run synth_1
+launch_runs synth_1 -jobs 4
+wait_on_run synth_1
+launch_runs impl_1 -jobs 4
+wait_on_run impl_1
+close_design
+open_run impl_1
+launch_runs impl_1 -to_step write_bitstream -jobs 4
+wait_on_run impl_1
+close_sim
+close_sim

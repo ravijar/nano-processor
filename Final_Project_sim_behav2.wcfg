@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="Final_Project_sim_behav.wdb" id="1">
+         <top_modules>
+            <top_module name="Final_Project_sim" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <zoom_setting>
+      <ZoomStartTime time="0fs"></ZoomStartTime>
+      <ZoomEndTime time="42100001fs"></ZoomEndTime>
+      <Cursor1Time time="33420000fs"></Cursor1Time>
+   </zoom_setting>
+   <column_width_setting>
+      <NameColumnWidth column_width="114"></NameColumnWidth>
+      <ValueColumnWidth column_width="58"></ValueColumnWidth>
+   </column_width_setting>
+   <WVObjectSize size="16" />
+   <wvobject fp_name="/Final_Project_sim/Clk_in" type="logic">
+      <obj_property name="ElementShortName">Clk_in</obj_property>
+      <obj_property name="ObjectShortName">Clk_in</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Final_Project_sim/Reset" type="logic">
+      <obj_property name="ElementShortName">Reset</obj_property>
+      <obj_property name="ObjectShortName">Reset</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Final_Project_sim/Overflow" type="logic">
+      <obj_property name="ElementShortName">Overflow</obj_property>
+      <obj_property name="ObjectShortName">Overflow</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Final_Project_sim/Zero" type="logic">
+      <obj_property name="ElementShortName">Zero</obj_property>
+      <obj_property name="ObjectShortName">Zero</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Final_Project_sim/R7_out" type="array">
+      <obj_property name="ElementShortName">R7_out[3:0]</obj_property>
+      <obj_property name="ObjectShortName">R7_out[3:0]</obj_property>
+      <obj_property name="isExpanded"></obj_property>
+   </wvobject>
+   <wvobject fp_name="/Final_Project_sim/an" type="array">
+      <obj_property name="ElementShortName">an[3:0]</obj_property>
+      <obj_property name="ObjectShortName">an[3:0]</obj_property>
+      <obj_property name="isExpanded"></obj_property>
+   </wvobject>
+   <wvobject fp_name="/Final_Project_sim/Sev_Seg_Out" type="array">
+      <obj_property name="ElementShortName">Sev_Seg_Out[6:0]</obj_property>
+      <obj_property name="ObjectShortName">Sev_Seg_Out[6:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Final_Project_sim/uut/Nano_Processor_0/Instruction_Decoder_0/I" type="array">
+      <obj_property name="ElementShortName">I[11:0]</obj_property>
+      <obj_property name="ObjectShortName">I[11:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Final_Project_sim/uut/Nano_Processor_0/Instruction_Decoder_0/I" type="array">
+      <obj_property name="ElementShortName">I[11:0]</obj_property>
+      <obj_property name="ObjectShortName">I[11:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Final_Project_sim/uut/Nano_Processor_0/Instruction_Decoder_0/Jump_Address" type="array">
+      <obj_property name="ElementShortName">Jump_Address[2:0]</obj_property>
+      <obj_property name="ObjectShortName">Jump_Address[2:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Final_Project_sim/uut/Nano_Processor_0/Instruction_Decoder_0/Jump_Flag" type="logic">
+      <obj_property name="ElementShortName">Jump_Flag</obj_property>
+      <obj_property name="ObjectShortName">Jump_Flag</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Final_Project_sim/uut/Nano_Processor_0/Slow_Clk_0/Clk_out" type="logic">
+      <obj_property name="ElementShortName">Clk_out</obj_property>
+      <obj_property name="ObjectShortName">Clk_out</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Final_Project_sim/uut/Nano_Processor_0/Register_Bank_0/Reg_1/Q" type="array">
+      <obj_property name="ElementShortName">Q[3:0]</obj_property>
+      <obj_property name="ObjectShortName">Q[3:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Final_Project_sim/uut/Nano_Processor_0/Register_Bank_0/Reg_2/Q" type="array">
+      <obj_property name="ElementShortName">Q[3:0]</obj_property>
+      <obj_property name="ObjectShortName">Q[3:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Final_Project_sim/uut/Nano_Processor_0/Register_Bank_0/Reg_7/Q" type="array">
+      <obj_property name="ElementShortName">Q[3:0]</obj_property>
+      <obj_property name="ObjectShortName">Q[3:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Final_Project_sim/uut/Nano_Processor_0/Instruction_Decoder_0/Reg_En" type="array">
+      <obj_property name="ElementShortName">Reg_En[2:0]</obj_property>
+      <obj_property name="ObjectShortName">Reg_En[2:0]</obj_property>
+   </wvobject>
+</wave_config>
